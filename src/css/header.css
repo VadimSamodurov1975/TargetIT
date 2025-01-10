@@ -1,4 +1,19 @@
-
+.container {
+    max-width: 335px;
+    padding: 20px 20px;
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 704px;
+        padding: 26px 32px;
+}
+}
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1151px;
+        padding: 26px 64px;
+    }
+}
 .button {
     display: none;
 }
@@ -98,7 +113,7 @@
     .menu-mobile {
         display: none;
         background-color: rgba(12, 12, 12, 0.92);
-        background-image: url(/TargetIT/src/img/);
+        background-image: url(../img/m-menu.webp),url(../img/m-menu@2x.webp);
         background-repeat: no-repeat;
         background-size: cover;
         position: fixed;
@@ -199,7 +214,7 @@
     }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .link-logo-mobile {
         font-size: 20px;
     }
@@ -230,7 +245,7 @@
     }
 }
 
-@media screen and (min-width: 1279px) {
+@media screen and (min-width: 1280px) {
     .burger-btn {
         display: none;
     }
