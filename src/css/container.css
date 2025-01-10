@@ -2,7 +2,10 @@
 .container {
   min-width: 320px;
   max-width: 375px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 60px;
   padding: 0 20px;
 }
 /* Styles for Tablet devices */
@@ -10,6 +13,7 @@
   .container {
     max-width: 768px;
     padding: 0 32px;
+    margin-bottom: 80px;
   }
 }
 /* Styles for Desktop devices */
@@ -17,5 +21,6 @@
   .container {
     max-width: 1280px;
     padding: 0 65px;
+    margin-bottom: 100px;
   }
 }
