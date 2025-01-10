@@ -4,12 +4,8 @@
      /*  About us Mobile */
 
 .about-us.section {
-
-    padding-bottom: 30px;
-    
 }
 .about-us{
-    
 }
 .about-us-container{
         display: flex;
@@ -84,18 +80,15 @@
      /* About us Tablet */
 
 @media screen and (min-width:768px){
-    .about-us.section {
-    
-    padding-bottom: 40px;
-    
+.about-us.section {
         }
-    .about-us-info.container{
+.about-us-info.container{
     max-width: 704px;
     margin-bottom: 40px;
     padding-right: 60px;
     padding-left: 60px;
     }
-    .about-us-container{
+.about-us-container{
     max-width: 704px;
     }
 .about-us-title{
@@ -118,17 +111,17 @@
 
    /* About us Desktop */
 
-   @media only screen and (min-width: 1280px){
-    .about-us.section{
+@media only screen and (min-width: 1280px){
+.about-us.section{
         max-width: 1280px;
     }
-    .about-us-info.container {
+.about-us-info.container {
         max-width: 580px;
         margin-bottom: 40px;
         padding-right: 60px;
         padding-left: 60px;
     }
-    .about-us-container{
+.about-us-container{
         max-width: 1150px;
         flex-direction: row;
         gap: 40px;
