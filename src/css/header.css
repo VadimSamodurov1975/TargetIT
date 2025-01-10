@@ -1,31 +1,7 @@
-@media (max-width: 767px) {
-    .container {
-        max-width: 335px;
-        padding: 20px 20px;
-        margin: 0 auto;
-    }
+
+.button {
+    display: none;
 }
-
-@media (min-width: 768px) {
-    .container {
-        max-width: 704px;
-        padding: 26px 32px;
-        margin: 0 auto;
-    }
-}
-
-@media (min-width: 1280px) {
-    .container {
-        max-width: 1150px;
-        padding: 26px 64px;
-        margin: 0 auto;
-    }
-}
-
-/**
- * END Reset styles
- */
-
 .header-container {
     display: flex;
     align-items: center;
@@ -35,6 +11,8 @@
 .burger-btn {
     display: block;
     stroke: #0c0c0c;
+    border: none;
+    background-color: inherit;
 }
 
 .link-logo-mobile {
@@ -123,12 +101,11 @@
         background-image: url(/TargetIT/src/img/);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 812px;
         position: fixed;
         top: 0;
         right: 0;
-        width: 80%;
-        max-width: 240px;
+        width: 200px;
+        height: 812px;
         z-index: 999;
         opacity: 0;
         visibility: hidden;
@@ -151,7 +128,8 @@
         position: absolute;
         top: 20px;
         right: 20px;
-        border: 1px;
+        border: 0;
+        background-color: inherit;
     }
 
     .mobile-menu-list-container {
@@ -160,16 +138,13 @@
         padding-top: 290px;
     }
 
-    .button-icon-close {
+    .close {
         stroke: #fbfbfb;
     }
 
     .mobile-menu-list {
-        width: 73px;
-        height: 238px;
         display: flex;
         align-items: center;
-        justify-content: space-around;
         flex-direction: column;
         gap: 24px;
     }
