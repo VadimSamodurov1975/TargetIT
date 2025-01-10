@@ -4,10 +4,25 @@ body {
   background-color: #fbfbfb;
 }
 
+/* Styles for Mobile devices */
 section {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 30px auto;  
 }
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  section {
+    padding: 40px auto;
+  }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 768px) {
+  section {
+    padding: 50px auto;
+  }
+}
+
 h1 {
   font-weight: 600;  
   letter-spacing: -0.02em;
