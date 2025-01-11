@@ -1,16 +1,13 @@
 /*--------sale----------*/
 .sale-title {
   display: inline-block;
-  font-weight: 600;
   font-size: 32px;
   line-height: 1;
-  letter-spacing: -0.02em;
-  color: #0c0c0c;
-  margin-bottom: 28px;
+  margin-bottom: 24px;
 }
 @media (max-width: 767px) {
   .sale-list-item img {
-    width: 54px;
+    width: 52px;
     height: 54px;
   }
 }
@@ -102,11 +99,12 @@
   border-radius: 30px;
   background: #3350e9;
   margin-top: 20px;
-  padding: 28px;
+  padding: 48px 28px;
 }
 @media screen and (min-width: 768px) {
   .sale-description {
     margin-top: 40px;
+    padding: 60px 40px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -128,10 +126,8 @@
   }
 }
 .sale-description-title {
-  font-weight: 600;
   font-size: 24px;
   line-height: 1.17;
-  letter-spacing: -0.02em;
   color: #fbfbfb;
   padding-bottom: 10px;
 }
@@ -202,6 +198,7 @@
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.7);
   padding-bottom: 28px;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -215,6 +212,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .sale-description-list {
