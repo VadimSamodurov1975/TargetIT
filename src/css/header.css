@@ -1,17 +1,17 @@
-.container {
+.header-container {
     max-width: 335px;
     padding: 20px 20px;
 }
 
 @media (min-width: 768px) {
-    .container {
+    .header-container {
         max-width: 704px;
         padding: 26px 32px;
     }
 }
 
 @media (min-width: 1280px) {
-    .container {
+    .header-container {
         max-width: 1151px;
         padding: 26px 64px;
     }
