@@ -1,20 +1,29 @@
-
 .container {
     max-width: 335px;
     padding: 20px 20px;
 }
+
 @media (min-width: 768px) {
     .container {
         max-width: 704px;
         padding: 26px 32px;
+    }
 }
-}
+
+
+
 @media (min-width: 1280px) {
     .container {
         max-width: 1151px;
         padding: 26px 64px;
     }
 }
+
+
+.header {
+    border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+}
+
 .button {
     display: none;
 }
@@ -118,7 +127,10 @@
         display: none;
         background-color: rgba(12, 12, 12, 0.92);
         background-image: url(../img/m-menu.webp),url(../img/m-menu@2x.webp);
+
+
         background-repeat: no-repeat;
+        background-position: center;
         background-size: cover;
         position: fixed;
         top: 0;
@@ -133,6 +145,11 @@
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
             visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+        @media (min-resolution:192dpi) {
+            .menu-mobile {
+                background-image: url(../img/m-menu@2x.webp);
+            }
+        }
 
     .menu-mobile.is-open {
         display: block;
@@ -154,7 +171,7 @@
     .mobile-menu-list-container {
         display: flex;
         justify-content: center;
-        padding-top: 290px;
+        padding-top: 240px;
     }
 
     .close {
@@ -178,7 +195,7 @@
     .social-container {
         display: flex;
         justify-content: center;
-        padding-top: 200px;
+        padding-top: 260px;
         padding-bottom: 40px;
 
     }
@@ -230,11 +247,11 @@
     }
 
     .mobile-menu-list-container {
-        padding-top: 420px;
+        padding-top: 310px;
     }
 
     .social-container {
-        padding-top: 210px;
+        padding-top: 350px;
         padding-bottom: 50px;
     }
 
