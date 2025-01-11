@@ -33,47 +33,36 @@
 .hero-people {
   position: relative;
   display: flex;
-  /*flex-direction: row;*/
-  /*flex-wrap: nowrap;*/
   justify-content: space-between;
   align-items: flex-end;
-  /*width: 335px;*/
-  /*height: 44px;*/
   padding-bottom: 28px;
 }
 
 .hero-list {
-  /*position: relative;*/
-  /*width: 245px;*/
-  /*height: 44px;*/
+  height: 44px;
   display: flex;
   flex-direction: row;
 }
+
 .hero-list-items {
-  /*content: '';*/
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 44px;
-  height: 44px;
-  text-align: start;
 }
 
 .hero-list-items:nth-child(1) {
   top: 0;
-  left: 20px;
+  left: 0;
   z-index: 1;
 }
 
 .hero-list-items:nth-child(2) {
   top: 0;
-  left: 52px;
+  left: 32px;
   z-index: 2;
 }
 
 .hero-list-items:nth-child(3) {
   top: 0;
-  left: 84px;
+  left: 64px;
   z-index: 3;
 }
 .scroll-link {
@@ -84,6 +73,7 @@
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #0c0c0c;
+  text-align: end;
 }
 
 .hero-img{
