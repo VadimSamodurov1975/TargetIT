@@ -1,16 +1,22 @@
 
 
 .contact-us {
+    font-family: 'Gilroy' sans-serif;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 20px;
     padding-left: 20px;
 }
 
+.contact-us-maincontainer {
+    flex-direction: column;
+    gap: 20px;
+}
+
 /* Контейнер для формы */
 .contact-us-first {
     border-radius: 30px;
-    padding: 48px 28px;
+    padding: 20px;
     width: 100%; /* Замість фіксованої ширини */
     height: auto; /* Автоматична висота */
     background: #F3F3F3;
@@ -19,8 +25,9 @@
 
 /* Заголовок формы */
 .contact-us-title {
+    font-family: 'Gilroy' sans-serif;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 100%;
     letter-spacing: -0.02em;
     color: var(--main);
@@ -29,8 +36,9 @@
 
 /* Описание формы */
 .contact-us-paragraf {
+    font-family: 'Gilroy', sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 129%;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
@@ -40,23 +48,27 @@
 
 /* Стили для полей ввода */
 .contact-us-input-style {
+    font-family: 'Gilroy' sans-serif;
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
-    padding: 12px 14px;
+    padding: 10px;
     width: 100%;
     height: 42px;
     box-sizing: border-box;
+    font-size: 12px;
 }
 
 /* Стили для текстовой области */
 .contact-us-input-style-com {
+    font-family: 'Gilroy' sans-serif;
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
-    padding: 12px 14px;
+    padding: 10px;
     width: 100%;
     height: 84px; 
     box-sizing: border-box;
     resize: none;  
+    font-size: 12px;
 }
 
 /* Контейнер для полей ввода */
@@ -68,46 +80,26 @@
 .contact-us-bth {
     width: 134px;
     border-radius: 16px;
-    padding: 12px;
+    padding: 10px;
     height: 42px;
     background-color: #3350E9;
     color: white;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 129%;
     text-align: center;
     font-weight: 500;
 }
 
 /* Адаптивные стили */
-@media (min-width: 320px) {
-    .contact-us-first {
-        padding: 20px;
-        width: 100%;
-        height: auto;
-    }
 
-    .contact-us-title {
-        font-size: 24px;
-    }
-
-    .contact-us-paragraf {
-        font-size: 12px;
-    }
-
-    .contact-us-input-style,
-    .contact-us-input-style-com {
-        padding: 10px;
-        font-size: 12px;
-    }
-
-    .contact-us-bth {
-        font-size: 12px;
-        padding: 10px;
-    }
-}
 
 @media (min-width: 768px) {
+
+    .contact-us-maincontainer {
+        flex-direction: column;
+    }
+
     .contact-us-title {
         font-weight: 600;
         font-size: 48px;
@@ -131,6 +123,11 @@
 }
 
 @media (min-width: 1158px) {
+
+    .contact-us-maincontainer {
+        display: flex;
+    }
+
     .contact-us-first {
         border-radius: 50px;
         width: 580px;
