@@ -3,32 +3,23 @@
 
      /*  About us Mobile */
 
-.about-us.section {
-}
-.about-us{
-}
-.about-us-container{
+
+
+ .about-us-container {
         display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
         flex-direction: column;
+        gap: 20px; 
+ }
+ .about-us-info {
         
-}
-.about-us-info {
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: column;
         border-radius: 30px;
-        max-width: 335px;
-        height: auto;
         background-color: #f3f3f3;
-        margin-bottom: 20px;
+        padding: 40px 20px;
 }
 .about-us-title {
     font-size: 32px;
     line-height: 1;
-    padding-top: 40px;
+    
     margin-bottom: 28px;
 }
 .about-us-text1 {
@@ -47,7 +38,7 @@
 
         font-weight: 500;
         font-size: 14px;
-        line-height: 1.28571;
+        line-height: 1.29;
         text-align: center;
         color: #fbfbfb;
         background-color: #3350e9;
@@ -55,31 +46,31 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 160px;
+        max-width: 160px;
         height: 48px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        margin-bottom: 40px;
+        
 }
 .about-us-view-catalog:hover,
 .about-us-view-catalog:focus{
     background-color: #1f3cd4;;
 }
 
-.about-us-container-img{
-  
+.about-us-container-img {
+     border-radius: 30px;
     padding: 0 0;
 }
 
 
 .image-about-us {
-    border-radius: 30px;
+    width: 100%;
     
-}
+}  
 
 
      /* About us Tablet */
 
-@media screen and (min-width:768px){
+ @media screen and (min-width:768px){
 .about-us.section {
         }
 .about-us-info.container{
@@ -106,15 +97,15 @@
 .about-us-view-catalog{
     margin-bottom: 80px;
 }
-}
+} 
 
 
    /* About us Desktop */
 
-@media only screen and (min-width: 1280px){
+ @media only screen and (min-width: 1280px){
 .about-us.section{
-        max-width: 1280px;
-    }
+       
+     }
 .about-us-info.container {
         max-width: 580px;
         margin-bottom: 40px;
@@ -124,6 +115,7 @@
 .about-us-container{
         max-width: 1150px;
         flex-direction: row;
+        align-items: flex-start;
         gap: 40px;
     }
 .about-us-text2 {
@@ -133,6 +125,6 @@
     max-width: none;
 }
 
-   }
+   }  
    
                           /* #endregion About us  */
