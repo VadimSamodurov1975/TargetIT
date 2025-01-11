@@ -1,0 +1,86 @@
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  text-align: left;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.hero-title .accent{
+  color: #3350e9;
+}
+
+.hero-descr{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 28px;
+}
+
+
+.hero-people {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  width: 335px;
+  height: 44px;
+  margin-bottom: 28px;
+}
+
+.hero-list {
+  position: relative;
+  width: 245px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+}
+.hero-list-items {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 44px;
+  height: 44px;
+  text-align: start;
+}
+
+.hero-list-items:nth-child(1) {
+  top: 0;
+  left: 20px;
+  z-index: 1;
+}
+
+.hero-list-items:nth-child(2) {
+  top: 0;
+  left: 52px;
+  z-index: 2;
+}
+
+.hero-list-items:nth-child(3) {
+  top: 0;
+  left: 84px;
+  z-index: 3;
+}
+.scroll-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
+}
