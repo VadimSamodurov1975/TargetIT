@@ -1,9 +1,4 @@
-/* #region About us  */
-
 /*  About us Mobile */
-
-/* .about-us {
-} */
 
 .about-us-container {
   display: flex;
@@ -25,17 +20,18 @@
   font-size: 32px;
   margin-bottom: 28px;
 }
-.about-us-text1 {
-  font-size: 14px;
-  letter-spacing: -0.02em;
-  color: rgba(12, 12, 12, 0.7);
-  margin-bottom: 20px;
-}
-.about-us-text2 {
-  font-size: 14px;
-  letter-spacing: -0.02em;
-  color: rgba(12, 12, 12, 0.7);
+.about-us-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
   margin-bottom: 40px;
+}
+.about-us-text {
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
 }
 .about-us-view-catalog {
   font-weight: 500;
@@ -76,11 +72,10 @@
     line-height: 0.91;
     margin-bottom: 40px;
   }
-  .about-us-text1,
-  .about-us-text2 {
+  .about-us-text {
     font-size: 16px;
   }
-  .about-us-text2 {
+  .about-us-list {
     margin-bottom: 60px;
   }
 }
@@ -91,14 +86,12 @@
   .about-us.section {
     max-width: 1280px;
   }
-  .about-us-info {
-    padding: 80px 60px;
-  }
+
   .about-us-container {
     flex-direction: row;
     gap: 40px;
   }
-  .about-us-text2 {
+  .about-us-list {
     margin-bottom: 40px;
   }
   .image-about-us {
