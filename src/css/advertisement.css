@@ -1,10 +1,3 @@
-@font-face {
-
-  font-family: "Gilroy", sans-serif;
-
-  src: url("../fonts/Gilroy-Bold.woff2") format("woff2");
-
-}
 .advertisement.section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -24,10 +17,7 @@
 @media (min-width: 320px) {
   .advertisement-container {
     max-width: 335px;
-    padding-top: 60px;
-    padding-right: 28px;
-    padding-left: 28px;
-    padding-bottom: 60px;
+    padding: 60px 28px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,10 +25,15 @@
     gap: 100px;
     border-radius: 30px;
     background-color: #0c0c0c;
-    background-image: url(../img/d-advert.webp);
+    background-image: url(../img/m-advert.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  @media (min-resolution: 192dpi) {
+    .advertisement-container {
+      background-image: url(../img/m-advert@2x.webp);
+    }
   }
   .caption-container {
     display: flex;
@@ -47,8 +42,6 @@
     align-items: flex-start;
   }
   .advertisement-caption {
-    font-family: "Gilroy", sans-serif;
-    font-weight: 600;
     font-size: 32px;
     line-height: 1;
     letter-spacing: -0.02em;
@@ -76,17 +69,19 @@
 @media (min-width: 768px) {
   .advertisement-container {
     max-width: 704px;
-    padding-top: 80px;
-    padding-right: 64px;
-    padding-left: 64px;
-    padding-bottom: 80px;
+    padding: 80px 64px;
+    background-image: url(../img/p-advert.webp);
   }
-    .advertisement-caption {
-      font-size: 48px;
-      line-height: 0.92;
+  @media (min-resolution: 192dpi) {
+    .advertisement-container {
+      background-image: url(../img/p-advert@2x.webp);
     }
+  }
+  .advertisement-caption {
+    font-size: 44px;
+    line-height: 0.92;
+  }
 }
-
 @media (min-width: 1280px) {
   .advertisement-container {
     max-width: 1150px;
@@ -94,8 +89,19 @@
     padding-right: 80px;
     padding-left: 80px;
     padding-bottom: 83px;
+    background-image: url(../img/d-advert.webp);
   }
-    .caption-container {
-      flex-direction: row;
+  @media (min-resolution: 192dpi) {
+    .advertisement-container {
+      background-image: url(../img/d-advert@2x.webp);
+    }
+  }
+  .caption-container {
+    flex-direction: row;
+  }
+    .advertisement-caption {
+      font-size: 50px;
+      line-height: 0.92;
     }
 }
+
