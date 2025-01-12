@@ -1,18 +1,15 @@
 .advertisement section {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding: 60px 28px;
+  padding: 60px 20px;
 }
 
 .advertisement-container {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: start;
   justify-content: space-between;
-  flex-direction: row;
-  /* gap: 100px; */
   border-radius: 30px;
-  /* width: 1150px;
-  height: 298px; */
+  width: 335px;
+  height: 363px;
   background: #0c0c0c;
   background-repeat: no-repeat;
   background-image: url(/src/img/d-advert.webp);
@@ -31,16 +28,15 @@
   overflow: hidden;
 }
 .advertisement-caption {
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 1.29;
+  font-size: 32px;
+  line-height: 1;
   letter-spacing: -0.02em;
-  /* width: 160px;
-  height: 48px;
-  border: 1px solid rgba(251, 251, 251, 0.15);
+  width: 279px;
+  height: 167px;
+  /* border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px; */
   color: #fbfbfb;
-  padding-right: 140px;
+  padding: 60px 28px 28px 28px;
 }
 .advertisement-accent {
   color: rgba(251, 251, 251, 0.5);
@@ -57,6 +53,7 @@
   border-radius: 16px;
   min-width: 160px;
   height: 48px;
+
   transition: color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
     background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -64,4 +61,43 @@
 .advertisement-link:focus {
   color: #0c0c0c;
   background: #fbfbfb;
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .advertisement section {
+    padding: 80px 32px;
+  }
+  .advertisement-caption {
+    font-size: 48px;
+    line-height: 0.92;
+    width: 576px;
+    height: 185px;
+  }
+  .advertisement-container {
+    border-radius: 30px;
+    width: 704px;
+    height: 425px;
+  }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+  .advertisement section {
+    padding: 100px 65px;
+  }
+
+  .advertisement-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    width: 1150px;
+    height: 298px;
+  }
+  .advertisement-caption {
+    min-width: 750px;
+    /* height: 132px; */
+  }
 }
