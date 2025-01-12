@@ -1,42 +1,45 @@
  /* Section Catalog */
-.catalog-container {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 
  .catalog-title {
-     font-weight: 600;
      font-size: 32px;
      line-height: 1;
-     letter-spacing: -0.02em;
-     color: #0c0c0c;
      margin-bottom: 24px;
  }
 
  .catalog-list {
      display: flex;
      flex-wrap: wrap;
-     justify-content: center;
+    justify-content: center;
+     align-items: center;
      gap: 20px;
  }
 
  .catalog-list-item {
      width: 100%;
+     height: 364px;
      position: relative;
      border: 1px solid rgba(12, 12, 12, 0.05);
      border-radius: 30px;
      background-color: #f3f3f3;
 
  }
+.catalog-imgage {
+    margin-top: 24px;
+}
 
  .hidden-items {
      display: none;
  }
 
+.catalog-image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
  .catalog-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42px;
  }
 
  .container-catalog {
@@ -47,7 +50,6 @@
  }
 
  .catalog-txt {
-     font-weight: 500;
      font-size: 16px;
      line-height: 1.25;
      letter-spacing: -0.02em;
@@ -58,8 +60,7 @@
  .catalog-text {
      font-weight: 400;
      font-size: 14px;
-     line-height: 1.29;
-     letter-spacing: -0.02em;
+    letter-spacing: -0.02em;
      color: rgba(12, 12, 12, 0.5);
  }
 
@@ -78,10 +79,7 @@
  }
 
  @media screen and (min-width: 768px) {
-    .catalog-container {
-         padding-top: 40px;
-         padding-bottom: 40px;
-    }
+  
 
     .catalog-title {
          font-size: 48px;
@@ -90,33 +88,28 @@
      }
 
     .catalog-list {
-         display: row;
          column-gap: 16px;
          row-gap: 32px;
      }
 
     .hidden-items {
          display: flex;
-     }
+         flex-wrap: wrap;
+         margin-left: auto;
+         margin-right: auto;
+         }
 
     .catalog-list-item {
          width: calc((100% - 1 * 16px) / 2);
-     }
-
-    .catalog-container {
+         }
+ 
+    .container-catalog {
          margin-left: 32px;
          margin-right: 32px;
      }
 
-    .catalog-list-items {
-         display: flex;
-         position: relative;
-         border: 1px solid rgba(12, 12, 12, 0.05);
-         border-radius: 30px;
-         background-color: #f3f3f3;
-     }
 
-    .catalog-txt {
+     .catalog-txt {
          font-size: 20px;
          line-height: 1;
      }
@@ -127,10 +120,8 @@
  }
 
  @media screen and (min-width: 1280px) {
-    .catalog-container {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
+  
+
      .catalog-list {
          column-gap: 23px;
      }
