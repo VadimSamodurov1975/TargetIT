@@ -1,6 +1,7 @@
 .advertisement section {
   padding-top: 50px;
   padding-bottom: 50px;
+  padding: 60px 28px;
 }
 
 .advertisement-container {
@@ -8,13 +9,15 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  gap: 100px;
+  /* gap: 100px; */
   border-radius: 30px;
-  background-color: aqua;
+  /* width: 1150px;
+  height: 298px; */
+  background: #0c0c0c;
+  background-repeat: no-repeat;
   background-image: url(/src/img/d-advert.webp);
 }
-.container {
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -30,8 +33,12 @@
 .advertisement-caption {
   font-weight: 600;
   font-size: 48px;
-  line-height: 0.91667;
+  line-height: 1.29;
   letter-spacing: -0.02em;
+  /* width: 160px;
+  height: 48px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px; */
   color: #fbfbfb;
   padding-right: 140px;
 }
@@ -52,4 +59,9 @@
   height: 48px;
   transition: color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
     background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.advertisement-link:hover,
+.advertisement-link:focus {
+  color: #0c0c0c;
+  background: #fbfbfb;
 }
