@@ -244,4 +244,21 @@
   .footer-div {
     gap: 126px;
   }
+  .footer-sm-nav {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .footer-nav-smedia {
+    order: -1;
+  }
+  .footer-adr-tel {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    order: 1;
+  }
+  .footer-text {
+    width: 523px;
+    order: 0;
+  }
 }
