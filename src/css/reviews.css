@@ -6,12 +6,6 @@
     margin-left: 20px;
 }
 
-.review-name {
-    font-size: 18px;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
-}
-
 .review-text {
     font-size: 16px;
     line-height: 1.25;
@@ -49,14 +43,16 @@
 }
 
 .review-card h2 {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
     margin: 10px 0;
 }
 
 .review-card p {
     font-size: 16px;
-    color: #666;
-    line-height: 1.5;
+    line-height: 1.25;
+    color: #666;    
     margin: 0 15px 15px;
 }
 
@@ -80,23 +76,19 @@
         margin-left: 10px;
     }
 
-    .review-name {
+    .review-card h2 {
         font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: -0.02em;
+        line-height: 1.25;        
     }
 
-    .review-text {
+    .review-card p {
         font-size: 14px;
-        line-height: 1.28;
-        letter-spacing: -0.02em;
+        line-height: 1.28;        
     }
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
     .reviews-title {
-        font-size: 48px;
-        line-height: 0.91667;
         margin-left: 20px;
     }
 
@@ -115,17 +107,5 @@
         justify-content: center;
         flex-wrap: wrap;
         gap: 30px;
-    }
-
-    .review-name {
-        font-size: 18px;
-        line-height: 1.1;
-        letter-spacing: -0.02em;
-    }
-
-    .review-text {
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: -0.02em;
-        }
+    }    
 }
