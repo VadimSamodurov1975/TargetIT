@@ -9,6 +9,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .burger-btn {
@@ -218,6 +220,11 @@
 }
 
 @media screen and (min-width: 768px) {
+    .header-container {            
+        padding-top: 26px;
+        padding-bottom: 26px;
+        }
+    
     .link-logo-mobile {
         font-size: 20px;
     }
