@@ -65,8 +65,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 26px;
-  font-style: normal;
+  margin-bottom: 26px;  
 
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 16px;
@@ -75,6 +74,7 @@
   margin-top: 20px;
 }
 .footer-tel {
+  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33;
@@ -127,6 +127,7 @@
   color: #fbfbfb;
 }
 .footer-address {
+  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33;
