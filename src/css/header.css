@@ -10,15 +10,20 @@
     }
 }
 
+
+
 @media (min-width: 1280px) {
     .header-container {
         max-width: 1151px;
         padding: 26px 64px;
     }
 }
+
+
 .header {
     border-bottom: 1px solid rgba(12, 12, 12, 0.1);
 }
+
 .button {
     display: none;
 }
@@ -114,7 +119,10 @@
     }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) { 
+    .header {
+        border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+    } 
     .menu-mobile {
         display: none;
         background-color: rgba(12, 12, 12, 0.92);
@@ -231,7 +239,7 @@
     }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .link-logo-mobile {
         font-size: 20px;
     }
@@ -261,7 +269,7 @@
     }
 }
 
-@media screen and (min-width: 1279px) {
+@media screen and (min-width: 1280px) {
     .burger-btn {
         display: none;
     }
