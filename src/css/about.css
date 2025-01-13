@@ -29,6 +29,7 @@
   margin-bottom: 40px;
 }
 .about-us-text {
+  width:100%
   font-size: 14px;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
@@ -68,6 +69,7 @@
     gap: 40px;
   }
   .about-us-info {
+    border-radius: 50px;
     padding: 80px 60px;
   }
   .about-us-title {
@@ -100,6 +102,10 @@
   .image-about-us {
     max-width: none;
   }
+
+  /* .about-us-text {
+    max-width: 460px;
+  } */
 }
 
 /* #endregion About us  */
