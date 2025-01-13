@@ -29,11 +29,12 @@
   margin-bottom: 40px;
 }
 .about-us-text {
-  width:100%
+  width:100%;
   font-size: 14px;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
+
 .about-us-view-catalog {
   font-weight: 500;
   font-size: 14px;
