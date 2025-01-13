@@ -13,6 +13,11 @@
 }
 
 .catalog-list-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
     width: 100%;
     position: relative;
     border: 1px solid rgba(12, 12, 12, 0.05);
@@ -22,6 +27,8 @@
 }
 
 .catalog-image {
+    width: 208px;
+    height: 206px;    
     margin-top: 24px;
     margin-left: auto;
     margin-right: auto;
@@ -109,6 +116,8 @@
     }
 
     .catalog-image {
+        width:268px;
+        height: 292px;
         margin-top: 34px;
     }
 
@@ -133,7 +142,12 @@
     .container-catalog {
         max-width: 304px;
     }
+    .catalog-image {
+        width: 292px;
+        height: 292px;    
+    }
 
+        
     .catalog-list {
         column-gap: 23px;
     }
