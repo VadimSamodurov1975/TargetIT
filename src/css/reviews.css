@@ -1,26 +1,17 @@
-/* pc */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f9f9f9;
-}
-
-.reviews {
-    text-align: center;
-    margin: 50px 0;
-    background-color: #fff;
-}
-
-.reviews h1 {
+.reviews-title {
     font-size: 36px;
     margin-bottom: 30px;
+    text-align: left;
+    margin-left: 20px;
 }
 
 .reviews-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .review-card {
@@ -39,7 +30,7 @@ body {
 .review-card img {
     border-radius: 50%;
     display: block;
-    margin: 0 auto 15px auto;
+    margin: 20px auto 15px auto;
     width: 60px;
     height: 60px;
 }
@@ -53,14 +44,33 @@ body {
     font-size: 16px;
     color: #666;
     line-height: 1.5;
-    margin: 0;
+    margin: 0 15px 15px;
 }
 
-
-/* tabletssss */
-@media (max-width: 768px) {
+@media (max-width: 375px) {
     .reviews-container {
-        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .review-card {
+        width: 100%;
+    }
+
+    .review-card:nth-child(n+2) {
+        display: none;
+    }
+
+    .reviews-title {
+        font-size: 24px;
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+    .reviews-title {
+        font-size: 32px;
+        margin-left: 20px;
     }
 
     .review-card {
@@ -72,20 +82,11 @@ body {
     }
 }
 
-/* phones*/
-@media (max-width: 480px) {
+@media (min-width: 769px) {
     .reviews-container {
-        flex-wrap: nowrap;
-        flex-direction: column;
-    }
-
-    .review-card {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .review-card:nth-child(n+2) {
-        display: none;
-
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
     }
 }
