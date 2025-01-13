@@ -2,10 +2,15 @@
 
 .contact-us {
     font-family: 'Gilroy' sans-serif;
-    padding-top: 30px;
-    padding-bottom: 30px;
     padding-right: 20px;
     padding-left: 20px;
+}
+
+.contact-us-container {
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .contact-us-maincontainer {
@@ -103,8 +108,9 @@
 /* Адаптивные стили */
 @media (min-width: 768px) {
 
-    .contact-us-maincontainer {
-        flex-direction: column;
+    .contact-us-container {
+        max-width: 704px;
+
     }
 
     .contact-us-title {
@@ -133,6 +139,10 @@
 }
 
 @media (min-width: 1158px) {
+
+    .contact-us-container {
+        max-width: 1150px;
+    }
 
     .contact-us-maincontainer {
         display: flex;
