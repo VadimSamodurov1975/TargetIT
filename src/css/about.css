@@ -30,14 +30,14 @@
 }
 .about-us-text {  
   font-size: 14px;
-  letter-spacing: -0.2em;
+  letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
 
 .about-us-view-catalog {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.28;
   text-align: center;
   color: #fbfbfb;
   background-color: #3350e9;
@@ -106,11 +106,7 @@
   }
   .image-about-us {
     max-width: none;
-  }
-
-  /* .about-us-text {
-    max-width: 460px;
-  } */
+  }  
 }
 
 /* #endregion About us  */
