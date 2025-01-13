@@ -1,6 +1,7 @@
 
 
 .contact-us-container {
+    max-width: 335px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -25,8 +26,8 @@
     gap: 28px;
     border-radius: 30px;
     padding: 48px 20px;
-    width: 100%; /* Замість фіксованої ширини */
-    height: auto; /* Автоматична висота */
+    width: 100%; 
+    height: auto;
     background: #F3F3F3;
 }
 
@@ -40,7 +41,6 @@
 
 /* Заголовок формы */
 .contact-us-title {
-    font-family: 'Gilroy' sans-serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 100%;
@@ -51,7 +51,6 @@
 
 /* Описание формы */
 .contact-us-paragraf {
-    font-family: 'Gilroy', sans-serif;
     font-weight: 500;
     font-size: 12px;
     line-height: 129%;
@@ -63,7 +62,6 @@
 
 /* Стили для полей ввода */
 .contact-us-input-style {
-    font-family: 'Gilroy' sans-serif;
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
     padding: 10px;
@@ -75,7 +73,6 @@
 
 /* Стили для текстовой области */
 .contact-us-input-style-com {
-    font-family: 'Gilroy' sans-serif;
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
     padding: 10px;
@@ -180,7 +177,6 @@
         align-items: flex-start;
         flex-direction: column;
         gap: 32px;
-        padding: 50px 60px;
     }
 
     .contact-us-form {
