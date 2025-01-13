@@ -39,6 +39,7 @@
 }
 
 .container-catalog {
+    max-width: 279px;
     margin-top: 10px;
     margin-bottom: 24px;
     margin-left: 28px;
@@ -112,6 +113,7 @@
     }
 
     .container-catalog {
+        max-width: 280px;
         margin-left: 32px;
         margin-right: 32px;
 
@@ -128,6 +130,9 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .container-catalog {
+        max-width: 304px;
+    }
 
     .catalog-list {
         column-gap: 23px;
