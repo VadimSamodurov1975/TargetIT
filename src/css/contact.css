@@ -4,8 +4,7 @@
     max-width: 335px;
     display: flex;
     align-items: flex-start;
-    flex-direction: column;
-    max-width: 335px;   
+    flex-direction: column; 
     gap: 24px;
 }
 
@@ -27,7 +26,6 @@
     border-radius: 30px;
     padding: 48px 20px;
     width: 100%; 
-    height: auto;
     background: #F3F3F3;
 }
 
@@ -56,8 +54,6 @@
     line-height: 129%;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
-    padding-top: 48px;
-    padding-bottom: 28px;
 }
 
 /* Стили для полей ввода */
@@ -65,7 +61,7 @@
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
     padding: 10px;
-    width: 100%;
+    width: 279px;
     height: 42px;
     box-sizing: border-box;
     font-size: 12px;
@@ -76,16 +72,11 @@
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
     padding: 10px;
-    width: 100%;
+    width: 279px;
     height: 84px; 
     box-sizing: border-box;
     resize: none;  
     font-size: 12px;
-}
-
-/* Контейнер для полей ввода */
-.contact-us-input {
-    padding-bottom: 18px;
 }
 
 /* Стили для кнопки */
@@ -101,10 +92,6 @@
     line-height: 129%;
     text-align: center;
     font-weight: 500;
-}
-
-.contact-us-picture {
-    padding-top: 20px;
 }
 
 .contact-us-image {
@@ -125,7 +112,23 @@
         font-size: 48px;
         line-height: 92%;
         letter-spacing: -0.02em;
+        padding-bottom: 40px;
     }
+
+    .contact-us-input-style {
+        width: 460px;
+        height: 52px;
+    }
+
+    .contact-us-input-style-com {
+        width: 460px;
+        height: 90px;    
+    }
+
+    .contact-us-maincontainer {
+        
+    }
+
 
     .contact-us-first {
         border-radius: 50px;
@@ -143,10 +146,6 @@
         padding: 17px 63px;
         width: 160px;
         height: 52px;
-    }
-
-    .contact-us-picture {
-        padding-top: 40px;
     }
 }
 
@@ -201,11 +200,6 @@
         padding: 16px 315px 54px 16px;
         width: 460px;
         height: 90px;
-    }
-
-    .contact-us-image {
-        width: 530px;
-        height: 556px;
     }
 
 }
