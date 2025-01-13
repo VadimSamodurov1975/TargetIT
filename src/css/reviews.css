@@ -1,0 +1,85 @@
+/* pc */
+.reviews {
+    text-align: center;
+    margin: 50px 0;
+    background-color: #fff;
+}
+
+.reviews h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.review-card {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    width: 335px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+}
+
+.review-card img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px auto;
+    width: 60px;
+    height: 60px;
+}
+
+.review-card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.review-card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+/* tabletssss */
+@media (max-width: 768px) {
+    .reviews-container {
+        justify-content: center;
+    }
+
+    .review-card {
+        width: 45%;
+    }
+
+    .review-card:nth-child(n+3) {
+        display: none;
+    }
+}
+
+/* phones*/
+@media (max-width: 480px) {
+    .reviews-container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .review-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .review-card:nth-child(n+2) {
+        display: none;
+
+    }
+}

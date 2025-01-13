@@ -1,7 +1,6 @@
 
 
 .contact-us-container {
-    max-width: 335px;
     display: flex;
     align-items: flex-start;
     flex-direction: column; 
@@ -44,7 +43,7 @@
     line-height: 100%;
     letter-spacing: -0.02em;
     color: var(--main);
-    padding-bottom: 24px;
+    
 }
 
 /* Описание формы */
@@ -103,7 +102,6 @@
 @media (min-width: 768px) {
 
     .contact-us-container {
-        max-width: 704px;
         gap: 40px;
     }
 
@@ -112,7 +110,6 @@
         font-size: 48px;
         line-height: 92%;
         letter-spacing: -0.02em;
-        padding-bottom: 40px;
     }
 
     .contact-us-input-style {
@@ -152,7 +149,6 @@
 @media (min-width: 1158px) {
 
     .contact-us-container {
-        max-width: 1150px;
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
@@ -176,6 +172,7 @@
         align-items: flex-start;
         flex-direction: column;
         gap: 32px;
+        padding: 50px 60px;
     }
 
     .contact-us-form {
