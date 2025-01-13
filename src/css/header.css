@@ -118,7 +118,7 @@
     .menu-mobile {
         display: none;
         background-color: rgba(12, 12, 12, 0.92);
-        background-image: url(../img/m-menu.webp);
+        background-image: url(/img/m-menu.webp);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -136,7 +136,7 @@
     }
         @media (min-resolution:192dpi) {
             .menu-mobile {
-                background-image: url(../img/m-menu@2x.webp);
+                background-image: url(/img/m-menu@2x.webp);
             }
         }
 
