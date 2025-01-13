@@ -21,9 +21,7 @@
 
 }
 
-.catalog-image {
-    width: 208px;
-    height: 206px;    
+.catalog-image {        
     margin-top: 24px;
     margin-left: auto;
     margin-right: auto;
@@ -110,9 +108,7 @@
 
     }
 
-    .catalog-image {
-        width:268px;
-        height: 292px;
+    .catalog-image {        
         margin-top: 34px;
     }
 
@@ -137,11 +133,6 @@
     .container-catalog {
         max-width: 304px;
     }
-    .catalog-image {
-        width: 292px;
-        height: 292px;    
-    }
-
         
     .catalog-list {
         column-gap: 23px;
