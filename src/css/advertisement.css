@@ -21,14 +21,14 @@
     gap: 100px;
     border-radius: 30px;
     background-color: #0c0c0c;
-    background-image: url(../img/m-advert.webp);
+    background-image: url(/img/m-advert.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   @media (min-resolution: 192dpi) {
     .advertisement-container {
-      background-image: url(../img/m-advert@2x.webp);
+      background-image: url(/img/m-advert@2x.webp);
     }
   }
   .caption-container {
@@ -59,18 +59,23 @@
     min-width: 160px;
     height: 48px;
     transition: color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
-      background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .advertisement-link:hover,
+  .advertisement-link:focus {
+    color: #0c0c0c;
+    background-color: #fbfbfb;
   }
 }
 @media (min-width: 768px) {
   .advertisement-container {
     max-width: 704px;
     padding: 80px 64px;
-    background-image: url(../img/p-advert.webp);
+    background-image: url(/img/p-advert.webp);
   }
   @media (min-resolution: 192dpi) {
     .advertisement-container {
-      background-image: url(../img/p-advert@2x.webp);
+      background-image: url(/img/p-advert@2x.webp);
     }
   }
   .advertisement-caption {
@@ -85,11 +90,11 @@
     padding-right: 80px;
     padding-left: 80px;
     padding-bottom: 83px;
-    background-image: url(../img/d-advert.webp);
+    background-image: url(/img/d-advert.webp);
   }
   @media (min-resolution: 192dpi) {
     .advertisement-container {
-      background-image: url(../img/d-advert@2x.webp);
+      background-image: url(/img/d-advert@2x.webp);
     }
   }
   .caption-container {
