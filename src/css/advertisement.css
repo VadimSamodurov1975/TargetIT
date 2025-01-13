@@ -59,7 +59,12 @@
     min-width: 160px;
     height: 48px;
     transition: color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
-      background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .advertisement-link:hover,
+  .advertisement-link:focus {
+    color: #0c0c0c;
+    background-color: #fbfbfb;
   }
 }
 @media (min-width: 768px) {
