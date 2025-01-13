@@ -1,6 +1,6 @@
 /*--------sale----------*/
 .sale-title {
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 32px;
   line-height: 1;
   margin-bottom: 24px;
@@ -13,7 +13,7 @@
 }
 @media screen and (min-width: 768px) {
   .sale-title {
-    display: block;
+    /* display: block; */
     font-size: 48px;
     margin-bottom: 40px;
   }
@@ -209,7 +209,7 @@
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.7);
   padding-bottom: 28px;
-  width: 279px;
+  max-width: 279px;
 }
 
 @media screen and (min-width: 768px) {
@@ -217,12 +217,12 @@
     font-size: 16px;
     line-height: 1.25;
     padding-bottom: 40px;
-    width: 584px;
+    max-width: 584px;
   }
 }
 @media screen and (min-width: 1280px) {
   .sale-description-text {
-    width: 410px;
+    max-width: 410px;
   }
 }
 .sale-description-list {
