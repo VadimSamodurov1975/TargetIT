@@ -102,6 +102,7 @@
 }
 @media screen and (min-width: 768px) {
   .sale-description {
+    border-radius: 50px;
     margin-top: 40px;
     padding: 60px 40px;
   }
