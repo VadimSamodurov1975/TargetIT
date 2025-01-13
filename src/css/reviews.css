@@ -1,9 +1,21 @@
 .reviews-title {
-
-    font-size: 36px;
+    font-size: 48px;
+    line-height: 0.92;
     margin-bottom: 30px;
     text-align: left;
     margin-left: 20px;
+}
+
+.review-name {
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+}
+
+.review-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
 }
 
 .reviews-container {
@@ -63,14 +75,28 @@
     }
 
     .reviews-title {
-        font-size: 24px;
+        font-size: 32px;
+        line-height: 1;
         margin-left: 10px;
+    }
+
+    .review-name {
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+    }
+
+    .review-text {
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
     }
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
     .reviews-title {
-        font-size: 32px;
+        font-size: 48px;
+        line-height: 0.91667;
         margin-left: 20px;
     }
 
@@ -90,4 +116,16 @@
         flex-wrap: wrap;
         gap: 30px;
     }
+
+    .review-name {
+        font-size: 18px;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+    }
+
+    .review-text {
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        }
 }
