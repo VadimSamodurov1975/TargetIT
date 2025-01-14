@@ -32,7 +32,7 @@
     gap: 28px;
     border-radius: 30px;
     padding: 48px 28px;
-    width: 100%; 
+    max-width: 279px; 
     background: #F3F3F3;
 }
 
