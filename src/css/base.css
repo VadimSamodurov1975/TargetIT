@@ -4,6 +4,10 @@ body {
   background-color: #fbfbfb;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Styles for Mobile devices */
 section {
   padding: 30px 0;  
