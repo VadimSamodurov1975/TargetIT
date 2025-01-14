@@ -83,7 +83,7 @@
         width: calc((100% - 16px) / 2);
     }
 
-    .review-card:nth-child(n+3) {
+    .review-card:last-child {
         display: none;
     }
 
