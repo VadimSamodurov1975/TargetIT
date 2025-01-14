@@ -8,13 +8,11 @@
 }
 
 .contact-us-maincontainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* flex-direction: column; */
+    display: flex;    
+    flex-direction: row;
     gap: 20px;
-    /* align-items: flex-start;
-    justify-content: flex-start; */
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 /* Контейнер для формы */
