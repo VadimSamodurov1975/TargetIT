@@ -1,8 +1,7 @@
 .reviews-title {
     font-size: 32px;
     line-height: 1;
-    margin-bottom: 30px;
-    /* text-align: left;     */
+    margin-bottom: 30px;    
 }
 
 .reviews-container {
@@ -12,7 +11,7 @@
     flex-wrap: wrap;
     max-width: 375px;    
 }
-.review-card: {    
+.review-card {    
     background-color: #f3f3f3;
     border-radius: 10px;
     width: 335px;
@@ -67,7 +66,7 @@
 @media screen and (min-width: 768px) {
     .reviews-title {
         font-size: 48px;
-        line-height: 0.91667;
+        line-height: 0.92;
         margin-bottom: 40px;
         /* text-align: left; */
     }
@@ -75,7 +74,7 @@
         gap: 16px;
     }
 
-    .review-card: {     
+    .review-card {     
         border-radius: 30px;
         width: calc((100% - 1 * 16px) / 2);        
         /* height: 272px; */
