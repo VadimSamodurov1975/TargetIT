@@ -13,10 +13,10 @@
 
   .caption-container {
     max-width: 295px;
-    padding-top: 60px;
-    padding-left: 28px;
+    padding-top: 60px 28px;
+    /* padding-left: 28px;
     padding-right: 28px;
-    padding-bottom: 60px;
+    padding-bottom: 60px; */
     border-radius: 30px;
     background-color: #0c0c0c;
     background-image: url(/img/m-advert.webp);
@@ -48,7 +48,7 @@
     color: #fbfbfb;
     border: 1px solid rgba(251, 251, 251, 0.15);
     border-radius: 16px;
-    min-width: 160px;
+    max-width: 160px;
     height: 48px;
     transition: color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
     background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
