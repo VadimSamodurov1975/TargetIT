@@ -13,6 +13,7 @@
 
 .advertisement-container {
     max-width: 295px;
+    justify-content:center;
     padding: 60px 28px;    
     border-radius: 30px;
     background-color: #0c0c0c;
