@@ -70,6 +70,7 @@
 
 .catalog-btn {
     border-radius: 16px;
+    border: none;
     width: 160px;
     height: 48px;
     color: #fbfbfb;
