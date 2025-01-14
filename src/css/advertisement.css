@@ -89,7 +89,7 @@
     .caption-container {
       background-image: url(/img/d-advert@2x.webp);
       flex-wrap: nowrap;
-      gap: 140px;
+      justify-content: space-between;
     }
   }
   
