@@ -11,8 +11,8 @@
   overflow: hidden;
   }
 
-.advertisement-container {
-    max-width: 295px;
+.advertisement {
+    max-width: 335px;
     padding: 60px 28px;    
     border-radius: 30px;
     background-color: #0c0c0c;
