@@ -83,12 +83,12 @@
     padding-right: 80px;
     padding-left: 80px;
     padding-bottom: 83px;
+    flex-wrap: nowrap;
     background-image: url(/img/d-advert.webp);
   }
   @media (min-resolution: 192dpi) {
     .caption-container {
-      background-image: url(/img/d-advert@2x.webp);
-      flex-wrap:nowrap;      
+      background-image: url(/img/d-advert@2x.webp);           
     }
   }
   
