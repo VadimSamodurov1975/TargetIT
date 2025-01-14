@@ -9,8 +9,8 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-  .advertisement-container {
+  }
+.advertisement-container {
     max-width: 279px;
     padding: 60px 28px;
     display: flex;
@@ -24,7 +24,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  )
+}
 
   @media (min-resolution: 192dpi) {
     .advertisement-container {
@@ -66,7 +66,7 @@
     color: #0c0c0c;
     background-color: #fbfbfb;
   }
-}
+
 @media (min-width: 768px) {
   .advertisement-container {
     max-width: 704px;
