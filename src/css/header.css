@@ -1,5 +1,9 @@
 .header {
+    background-color: #fbfbfb;
     border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 900;
 }
 
 .button {
