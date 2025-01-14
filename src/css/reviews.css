@@ -84,7 +84,7 @@
     }
     .review-card {        
         border-radius: 30px;
-        width: 344px;        
+        width: calc((100% - 16px) / 2);
     }
 
     .review-card:nth-child(n+3) {
