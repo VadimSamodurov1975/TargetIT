@@ -88,8 +88,7 @@
   @media (min-resolution: 192dpi) {
     .caption-container {
       background-image: url(/img/d-advert@2x.webp);
-      flex-wrap: nowrap;
-      justify-content: space-between;
+      flex-wrap:nowrap;      
     }
   }
   
