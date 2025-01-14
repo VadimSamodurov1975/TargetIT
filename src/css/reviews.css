@@ -75,15 +75,15 @@
         gap: 16px;
     }
 
-    .review-card {        
+    .review-card:not(:last-child) {        
         border-radius: 30px;
         width: calc((100% - 1 * 16px) / 2);
         height: 272px;
     }
 
-    .review-card:last-child {
+    /* .review-card:last-child {
         display: none;
-    }
+    } */
 
 }
 
