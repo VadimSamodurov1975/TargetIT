@@ -171,7 +171,7 @@
 
     .contact-us-first {
         border-radius: 50px;
-        width: 580px;
+        max-width: 580px;
         height: 556px;
         display: flex;
         align-items: flex-start;
