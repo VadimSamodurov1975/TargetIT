@@ -10,20 +10,24 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
   }
-.advertisement-container {
-    max-width: 279px;
-    padding: 60px 28px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    gap: 100px;
+
+.advertisement {
+    max-width: 320px;
+    padding: 60px 28px;    
     border-radius: 30px;
     background-color: #0c0c0c;
     background-image: url(/img/m-advert.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.advertisement-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 100px;
 }
 
   @media (min-resolution: 192dpi) {
