@@ -39,7 +39,7 @@
 .contact-us-form {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     /* align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column; */
@@ -61,10 +61,10 @@
 .contact-us-input-style {
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
-    padding: 10px;
+    padding-left: 14px;
     width: 279px;
     height: 42px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-weight: 400;
     font-size: 14px;
     line-height: 1.28;
