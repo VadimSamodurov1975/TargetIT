@@ -81,6 +81,7 @@
     padding-left: 80px;
     padding-bottom: 83px;
     flex-wrap: nowrap;
+    gap: 140px;
     background-image: url(/img/d-advert.webp);
   }
   @media (min-resolution: 192dpi) {
