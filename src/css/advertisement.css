@@ -11,7 +11,7 @@
   overflow: hidden;
   }
 
-.advertisement {
+.advertisement-container {
     max-width: 335px;
     padding: 60px 28px;    
     border-radius: 30px;
@@ -19,8 +19,7 @@
     background-image: url(/img/m-advert.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
+    background-size: cover;    
     /* display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,11 +27,11 @@
     gap: 100px; */
 }
 
-.advertisement-container {
+/* .advertisement-container {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
   @media (min-resolution: 192dpi) {
     .advertisement-container {
