@@ -47,9 +47,12 @@
 
 .contact-us-form {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: column;
+    flex-direction: column; */
     /* flex-wrap: wrap; */
     /* justify-content: flex-start; */
     /* align-items: flex-start;
@@ -65,6 +68,9 @@
     padding-left: 14px;
     max-width: 279px;
     height: 42px;
+}
+
+.contact-us-input-style::placeholder {
     /* box-sizing: border-box; */
     font-weight: 400;
     font-size: 14px;
@@ -79,8 +85,13 @@
     max-width: 279px;
     height: 84px; 
     box-sizing: border-box;
-    resize: none;  
-    font-size: 12px;
+    resize: none;
+}
+
+.contact-us-input-style-com::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
 }
 
 /* Стили для кнопки */
