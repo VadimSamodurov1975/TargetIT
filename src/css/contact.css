@@ -9,10 +9,12 @@
 
 .contact-us-maincontainer {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: column; */
     gap: 20px;
-    align-items: flex-start;
-    justify-content: flex-start;
+    /* align-items: flex-start;
+    justify-content: flex-start; */
 }
 
 /* Контейнер для формы */
