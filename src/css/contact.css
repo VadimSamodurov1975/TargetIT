@@ -1,11 +1,11 @@
 
 
-.contact-us-container {
+/* .contact-us-container {
     display: flex;
     align-items: flex-start;
     flex-direction: column; 
     gap: 24px;
-}
+} */
 
 .contact-us-maincontainer {
     display: flex;    
