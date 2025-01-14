@@ -24,6 +24,7 @@
     background-color: #f8f8f8;
     border-radius: 10px;
     width: 335px;
+    padding: 32px 36px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease;
@@ -71,8 +72,7 @@
 
     .reviews-title {
         font-size: 32px;
-        line-height: 1;
-        margin-left: 10px;
+        line-height: 1;        
     }
 
     .review-card h2 {
