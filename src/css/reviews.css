@@ -80,7 +80,7 @@
     .reviews-container {
         display: flex;        
         gap: 16px;
-        /* flex-wrap: wrap;         */
+        flex-wrap: nowrap;        
     }
     .review-card {        
         border-radius: 30px;
