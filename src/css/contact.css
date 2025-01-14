@@ -49,14 +49,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content:flex-start;
-    width:100%;
-    gap: 18px;
-    
-    /* display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;    
-    gap: 18px; */
+    max-width:279px;
+    gap: 18px;   
 }
 
 /* Стили для полей ввода */
