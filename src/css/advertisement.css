@@ -10,9 +10,8 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-@media (min-width: 320px) {
   .advertisement-container {
-    max-width: 335px;
+    max-width: 279px;
     padding: 60px 28px;
     display: flex;
     align-items: center;
@@ -25,7 +24,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  )
+
   @media (min-resolution: 192dpi) {
     .advertisement-container {
       background-image: url(/img/m-advert@2x.webp);
