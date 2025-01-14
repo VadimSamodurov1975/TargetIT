@@ -140,7 +140,9 @@
     }
 
     .contact-us-form {
+        max-width: 460px;
         gap: 18px;
+
     }
 
     .contact-us-bth {
