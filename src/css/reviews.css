@@ -47,30 +47,24 @@
     margin: 0 auto;
 } */
 
-
-
-
-
-.review-card img {
+.review-image {
     border-radius: 50%;
-    display: block;
-    margin: 20px auto 15px auto;
-    width: 60px;
-    height: 60px;
+    /* display: block; */
+    margin-bottom: 24px;
+    width: 56px;
+    height: 56px;
 }
 
 .review-name {
-    font-size: 18px;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
-    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 8px;
 }
 
 .review-text {
-    font-size: 16px;
-    line-height: 1.25;
-    color: #666;    
-    margin: 0 15px 15px;
+    font-size: 14px;
+    line-height: 1.28;
+    color: rgba(12, 12, 12, 0.4);    
 }
 
 /* @media (max-width: 375px) {
