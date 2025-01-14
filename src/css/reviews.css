@@ -12,7 +12,7 @@
     flex-wrap: wrap;
     max-width: 375px;    
 }
-.review-card:not(:nth-child(n+2)) {    
+.review-card: {    
     background-color: #f3f3f3;
     border-radius: 10px;
     width: 335px;
@@ -22,9 +22,9 @@
     transition: transform 0.3s ease;
 }
 
-/* .review-card:nth-child(n+2) {
+.review-card:nth-child(n+2) {
     display: none;
-} */
+}
 
 .review-card:hover {
     transform: translateY(-5px);
@@ -75,20 +75,15 @@
         gap: 16px;
     }
 
-    .review-card:not(:last-child) {        
-        background-color: #f3f3f3;
+    .review-card: {     
         border-radius: 30px;
-        width: calc((100% - 1 * 16px) / 2);
-        padding: 32px 36px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        text-align: center;
-        transition: transform 0.3s ease;
+        width: calc((100% - 1 * 16px) / 2);        
         /* height: 272px; */
     }
 
-    /* .review-card:last-child {
+    .review-card:nth-child(n+3) {
         display: none;
-    } */
+    }
 
 }
 
