@@ -22,15 +22,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    gap: 28px;
       
   }
   .advertisement-caption {
     font-size: 32px;
     line-height: 1;
     letter-spacing: -0.02em;
-    color: rgba(251, 251, 251, 0.5);
-    margin-bottom: 28px;
+    color: rgba(251, 251, 251, 0.5);    
   }
+
   .advertisement-accent {
     color: #fbfbfb;
   }
