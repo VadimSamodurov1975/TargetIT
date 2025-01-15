@@ -224,12 +224,12 @@
   }
   .footer-ws-list {
     flex-wrap: nowrap;
-    max-width: 400px;
+    min-width: 400px;
     gap: 19px;
   }
   .footer-ws-link {
     font-size: 14px;
-    line-height: 1.29;
+    line-height: 1.28;
   }
   .footer-address {
     font-size: 14px;
