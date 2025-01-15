@@ -99,6 +99,7 @@
 }
 .footer-nav-website {
   display: flex;
+  max-width: 279px;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
