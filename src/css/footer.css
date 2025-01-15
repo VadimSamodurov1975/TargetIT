@@ -54,8 +54,7 @@
   opacity: 0.8;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-sl-icon:hover,
-.footer-sl-icon:focus,
+
 .footer-sm-link:hover,
 .footer-sm-link:focus {
   opacity: 1;
@@ -128,6 +127,12 @@
   text-align: center;
   color: #fbfbfb;
 }
+
+/* .footer-ws-link:focus,
+.footer-ws-link:hover {
+
+} */
+
 .footer-address {
   font-style: normal;
   font-weight: 500;

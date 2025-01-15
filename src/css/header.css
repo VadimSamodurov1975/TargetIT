@@ -80,12 +80,14 @@
     height: 36px;
 }
 
+
+
 .social-icon {
     fill: #0c0c0c;
 }
 
-.social-icon:focus,
-.social-icon:hover {
+.header-social-link:focus,
+.header-social-link:hover {
     fill: #3350e9;
 }
 
