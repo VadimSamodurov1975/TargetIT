@@ -233,7 +233,7 @@
   }
   .footer-address {
     font-size: 14px;
-    line-height: 1.29;
+    line-height: 1.28;
     max-width: 162px;
   }
   .footer-official {
@@ -244,11 +244,11 @@
   }
   .footer-off-text {
     font-size: 14px;
-    line-height: 1.29;
+    line-height: 1.28;
   }
   .footer-off-link {
     font-size: 14px;
-    line-height: 1.29;
+    line-height: 1.28;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -276,6 +276,7 @@
     order: 0;
   }
   .footer-ws-list {
+    min-width: 505px;
     gap: 40px;
   }
 }
