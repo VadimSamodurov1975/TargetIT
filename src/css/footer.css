@@ -52,12 +52,13 @@
 .footer-sl-icon {
   fill: #fbfbfb;
   opacity: 0.8;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-sm-link:hover .icon,
 .footer-sm-link:focus .icon {
-  opacity: 1;
+  fill: aqua;
+  /* opacity: 1; */
 }
 
 .footer-adr-tel {
