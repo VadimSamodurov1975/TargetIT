@@ -1,4 +1,6 @@
-
+.hero-container {
+  padding-top: 60px;
+}
 .hero-text {
   display: flex;
   flex-direction: column;
@@ -12,8 +14,7 @@
   line-height: 0.95;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  text-align: left;
-  margin-top: 60px;
+  text-align: left;  
   margin-bottom: 20px;
 }
 
@@ -97,12 +98,16 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero-container {
+      padding-top: 80px;
+    }
+  
   .hero-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 11px;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     margin-bottom: 40px;
   }
 
