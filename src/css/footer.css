@@ -224,6 +224,7 @@
   }
   .footer-ws-list {
     flex-wrap: nowrap;
+    max-width: 400px;
     gap: 19px;
   }
   .footer-ws-link {
