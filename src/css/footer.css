@@ -59,10 +59,10 @@
   color: #0c0c0c;
 } */
 
-.footer-adr-tel:hover,
-.footer-adr-tel:focus {
+.footer-adr-tel:hover .footer-tel,
+.footer-adr-tel:focus .footer-tel {
   color:#5a6cc5;
-}
+}.
 
 .footer-sm-link:hover .footer-sl-icon,
 .footer-sm-link:focus .footer-sl-icon {  
