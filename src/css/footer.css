@@ -66,7 +66,7 @@
 
 .footer-sm-link:hover .footer-sl-icon,
 .footer-sm-link:focus .footer-sl-icon {  
-  opacity: 1;
+  fill:#5a6cc5;
 }
 
 .footer-adr-tel {
