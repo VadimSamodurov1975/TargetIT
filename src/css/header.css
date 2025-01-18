@@ -1,9 +1,11 @@
 .header {
+    background-color: #fbfbfb;
+    border-bottom: 1px solid rgba(12, 12, 12, 0.1);
     position: sticky;
     top: 0;
     z-index: 900;
-    border-bottom: 1px solid rgba(12, 12, 12, 0.1);
-    background-color: #fbfbfb;
+
+    
 }
 
 .button {
@@ -32,17 +34,32 @@
     color: #0c0c0c;
 }
 
+
+.list-item {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+
 .header-nav {
+    position: relative;
     display: flex;
+    justify-content: center;
     align-items: center;
+    
 }
 
 .header-list {
     display: flex;
-    align-items: center;
     gap: 40px;
+    padding: 0;
+    margin: 0;
     margin-right: 200px;
 }
+
+
+.header-nav .list-item {
+    position: relative;
 
 .list-item {
     font-size: 14px;
@@ -56,21 +73,28 @@
     color:#3350e9;
 }
 
-.list-item.current {
+.menu-link {
+    display: block;
     position: relative;
-    display: inline-block;
+    z-index: 1;
 }
 
-.list-item.current::after {
+.menu-link::after {
     content: "";
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: -10px;
-    border-radius: 100%;
-    background-color: #3350e9;
-    width: 8px;
-    height: 8px;
+        position: absolute;
+        left: 50%;
+        bottom: -10px ;
+        border-radius: 100%;
+        background-color: #3350e9;
+        width: 8px;
+        height: 8px;
+        opacity: 0;
+    transition: width 0.3s ease;
+}
+
+.menu-link.active::after {
+    opacity: 1;
+    
 }
 
 .social-list {
@@ -78,15 +102,15 @@
     gap: 10px;
 }
 
-.header-social-link {
+.social-link {
     border: 1px solid rgba(12, 12, 12, 0.1);
-    border-radius: 10px;
-    padding: 8px;
-    width: 36px;
-    height: 36px;
+        border-radius: 10px;
+        padding: 8px;
+        width: 36px;
+        height: 36px;
+    display: block;
+    
 }
-
-
 
 .social-icon {
     fill: #0c0c0c;
