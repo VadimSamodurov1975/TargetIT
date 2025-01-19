@@ -1,14 +1,15 @@
 .header {
-    background-color: #fbfbfb;
-    border-bottom: 1px solid rgba(12, 12, 12, 0.1);
     position: sticky;
     top: 0;
     z-index: 900;
+    border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+    background-color: #fbfbfb;
 }
 
 .button {
     display: none;
 }
+
 .header-container {
     display: flex;
     align-items: center;
@@ -32,55 +33,45 @@
     color: #0c0c0c;
 }
 
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-right: 200px;
+}
 
 .list-item {
     font-size: 14px;
     line-height: 18px;
     text-align: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-nav {
+.list-item:hover,
+.list-item:focus {
+    color: #3350e9;
+}
+
+.list-item.current {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    display: inline-block;
 }
 
-.header-list {
-    display: flex;
-    gap: 40px;
-    padding: 0;
-    margin: 0;
-    margin-right: 200px;
-}
-
-.header-nav .list-item {
-    position: relative;
-}
-
-.menu-link {
-    display: block;
-    position: relative;
-    z-index: 1;
-}
-
-.menu-link::after {
+.list-item.current::after {
     content: "";
-        position: absolute;
-        left: 50%;
-        bottom: -10px ;
-        border-radius: 100%;
-        background-color: #3350e9;
-        width: 8px;
-        height: 8px;
-        opacity: 0;
-    transition: width 0.3s ease;
-}
-
-.menu-link.active::after {
-    opacity: 1;
-    
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: -10px;
+    border-radius: 100%;
+    background-color: #3350e9;
+    width: 8px;
+    height: 8px;
 }
 
 .social-list {
@@ -88,21 +79,22 @@
     gap: 10px;
 }
 
-.social-link {
+.header-social-link {
     border: 1px solid rgba(12, 12, 12, 0.1);
-        border-radius: 10px;
-        padding: 8px;
-        width: 36px;
-        height: 36px;
-    display: block;
-    
+    border-radius: 10px;
+    padding: 8px;
+    width: 36px;
+    height: 36px;
 }
+
+
+
 .social-icon {
     fill: #0c0c0c;
 }
 
-.social-icon:focus,
-.social-icon:hover {
+.header-social-link:focus .social-icon,
+.header-social-link:hover .social-icon {
     fill: #3350e9;
 }
 
@@ -120,10 +112,11 @@
     }
 }
 
-@media screen and (min-width: 320px) { 
+@media screen and (min-width: 20px) {
     .header {
         border-bottom: 1px solid rgba(12, 12, 12, 0.1);
-    } 
+    }
+
     .menu-mobile {
         display: none;
         background-color: rgba(12, 12, 12, 0.92);
@@ -135,6 +128,7 @@
         top: 0;
         right: 0;
         width: 200px;
+        height: 100vh;
         z-index: 999;
         opacity: 0;
         visibility: hidden;
@@ -143,11 +137,12 @@
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
             visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-        @media (min-resolution:192dpi) {
-            .menu-mobile {
-                background-image: url(/img/m-menu@2x.webp);
-            }
+
+    @media (min-resolution:192dpi) {
+        .menu-mobile {
+            background-image: url(/img/m-menu@2x.webp);
         }
+    }
 
     .menu-mobile.is-open {
         display: block;
@@ -188,6 +183,13 @@
         line-height: 1.28571;
         text-align: center;
         color: #fbfbfb;
+
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .menu-item:hover,
+    .menu-item:focus {
+        color: #5a6cc5;
     }
 
     .social-container {
@@ -215,8 +217,9 @@
         fill: #fbfbfb;
         opacity: 50%;
     }
-    .social-icon-menu:hover,
-    .social-icon-menu:focus {
+
+    .menu-social-link:hover .social-icon-menu,
+    .menu-social-link:focus .social-icon-menu {
         fill: #fbfbfb;
         opacity: 100%;
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -241,11 +244,11 @@
 }
 
 @media screen and (min-width: 768px) {
-    .header-container {            
+    .header-container {
         padding-top: 26px;
         padding-bottom: 26px;
-        }
-    
+    }
+
     .link-logo-mobile {
         font-size: 20px;
     }
