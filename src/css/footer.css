@@ -89,6 +89,13 @@
   text-transform: uppercase;
   text-align: center;
   color: #fbfbfb;
+  
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-adr-tel:hover .footer-tel,
+.footer-adr-tel:focus .footer-tel {
+  color: #5a6cc5;
 }
 
 .footer-text {
@@ -252,7 +259,7 @@
     height: 48px;
   }
 
-  .footer-tel {
+    .footer-tel {
     font-size: 14px;
     line-height: 1.29;
   }
@@ -340,8 +347,8 @@
     order: 0;
   }
 
-  .footer-ws-list {
-    /* min-width: 505px; */
-    /* gap: 40px; */
-  }
+  /* .footer-ws-list {
+    min-width: 505px;
+    gap: 40px;
+  } */
 }
